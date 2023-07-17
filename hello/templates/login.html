@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="main">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="UserName" required>
+                <box-icon type='solid' name='user'></box-icon>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="password" required>
+                <box-icon type='solid' name='lock-alt'></box-icon>
+            </div>
+            <div class="remember-forget">
+                <label><input type="checkbox">RememberMe</label>
+                <a href="#">Forget Password</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="register-link">
+                <p>Dont Have Any Account <a href="#">Register</a></p>
+            </div>
+
+
+        </form>
+    </div>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+   
+</body>
+</html>
