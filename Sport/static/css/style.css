@@ -115,3 +115,23 @@ body {
     text-decoration: underline;
 
 }
+
+.main .form-select{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.form-select .selectd{
+    width: 100%;
+    height: 100%;
+    background: rgb(46, 146, 46);
+    border: none;
+    outline: none;
+    border:  2px solid rgb(255, 255, 255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 10px;
+
+}
